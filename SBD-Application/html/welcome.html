@@ -1,0 +1,178 @@
+<!-- 
+    data = {
+        "NICKNAME": str
+        "CLUB_ID": str (AWS-CC-2023-####)
+    }
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWSCC Scheduled Interview - Creatives Office</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            line-height: 1.5;
+            background-color: #F4F1FA;
+            color: #232F3E;
+        }
+
+        table {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .purple{
+            color: #330066;
+        }
+        .yellow{
+            color: #F2A12B;
+        }
+
+        .purple , .yellow{
+            font-weight: 600;
+        }
+        .wrapper {
+            max-width: 60rem;
+            padding-bottom: 0.3rem;
+        }
+
+        .header-logo {
+            display: block;
+            max-width: 100%;
+        }
+        .container{
+            padding: 2rem 1.5rem;
+        }
+        .main {
+            padding: 3rem 2rem 1rem 2rem;
+            text-align: justify;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+        }
+
+        hr.solid{
+            margin: 1.5rem 0 0.8rem 0;
+        }
+        .grey{
+            color: #666666;
+        }
+        .footer-logo{
+            display: block;
+            max-width: 100%;
+        }
+        .pad-top-s{
+            padding-top: 1.5rem;
+        }
+        .social img{
+            width: 2rem;
+            margin-top: -0.5rem;
+            margin-right: 1rem;
+        }
+        .social a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="wrapper">
+        <tr>
+            <td style="background-color: #330066;">
+                <!-- Logo Header -->
+                <table>
+                    <tr>
+                        <td>
+                            <a href="#"><img src="https://i.postimg.cc/0jX4MfVD/Header.png" class="header-logo"></a>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Main Content -->
+                <div class="container">
+                    <table class="main">
+                        <tr>
+                            <td>
+                                <p>Hi {{ NICKNAME }},</p>
+                                <p>
+                                    We hope this message finds you soaring high in the AWS Cloud!
+                                </p>
+                                <p>
+                                    We would like to express our heartfelt gratitude for your interest in joining the <strong>AWS Cloud Club - PUP Manila </strong> and participating in our recent Skill Builder Department application process. Your enthusiasm and dedication are truly commendable, and we are excited to have you as a potential member of our community.
+                                </p>
+                                    As the next step in our application process, we kindly request you to complete the asynchronous interview through the form provided in this email. This interview will help us better understand your interests, skills, and aspirations, which in turn will enable us to know if you have what it takes to be a part of your chosen department. 
+                                <hr class="solid"></hr>
+                            </td>
+                        </tr>
+
+                    <tr>
+                        <td>
+                            <p>
+                                Please find the link to the interview form here: 
+                                <br>
+                                {{ DEPARTMENT }} : <a href="{{ LINK }}"><strong>Interview Link</strong></a>
+                                <br>
+                                Deadline: <strong>October 25, 2023 | 10:00 PM </strong>
+                                <hr class="solid"></hr>
+                            </p>
+                            <p>
+                                Furthermore, please be aware that, due to the substantial number of applicants there is a possibility of redirection towards specific departments within our organization. Rest assured, this redirection is aimed at optimizing your experience and maximizing your contributions. Your flexibility in this matter is greatly appreciated.
+
+                            </p>
+                            <p>
+                                If you need assistance or have some questions, the team's always ready, so don't hesitate to reach out to us through our facebook page or through our official social media accounts. We're here to ensure your cosmic journey is <strong>AWSome</strong>-just like you!
+                            </p>
+                          <p>
+                            Once again, thank you for your interest in the AWS Cloud Club. Your journey as an AWS Member will be rewarding, and we can't wait to see the <strong>AWSome</strong>  contributions you'll make.
+                          </p>
+                          <p style="padding-top: 0.8rem">It's always <span class="yellow">Day One!</span></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>                            
+                            <p>In the service of the community,  
+                            </p>  
+                            <div class="signature">
+                                    <i>Relations Office <br></i>
+                                    <strong>AWS Cloud Club - PUP Manila</strong>
+                                </strong> <br>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                          <div class="social pad-top-s">
+                              <p class="grey"><i>Follow us on our social media pages:</i></p>
+
+                              <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
+                                  src="https://i.postimg.cc/kXN2MVvk/FaceBook.png" alt="Facebook Logo" alt="Facebook Logo"></a>
+                      
+                              <a href="https://www.instagram.com/awscc_pupmnl/"><img
+                                  src="https://i.postimg.cc/FFLfqCdF/Instagram.png" alt="Instagram Logo" alt="Instagram Logo"></a>
+                                  
+                              <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
+                                  src="https://i.postimg.cc/151gZ0wG/LinkedIn.png" alt="LinkedIn Logo" alt="LinkedIn Logo"></a>
+                          </div>
+                      </td>
+                  </tr>
+              </table>
+          </div>
+              
+              <!-- Footer -->
+              <table>
+                  <tr>
+                      <td class="footer">
+                          <a href="#"><img src="https://i.postimg.cc/sX1Pgmt2/Footer1.png" alt="" class="footer-logo"></a>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+  </table>
+</body>
+</html>
