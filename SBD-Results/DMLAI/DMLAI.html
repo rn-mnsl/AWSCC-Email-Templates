@@ -1,0 +1,161 @@
+<!-- 
+    data = {
+        "NICKNAME": str
+        "CLUB_ID": str (AWS-CC-2023-####)
+    }
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>AWSCC Scheduled Interview - Creatives Office</title>
+     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+ 
+     <style>
+         body {
+             font-family: 'Rubik', sans-serif;
+             line-height: 1.5;
+             background-color: #F4F1FA;
+             color: #232F3E;
+         }
+ 
+         table {
+             width: 100%;
+             margin: 0 auto;
+         }
+ 
+         .purple{
+             color: #330066;
+         }
+         .yellow{
+             color: #F2A12B;
+         }
+ 
+         .purple , .yellow{
+             font-weight: 600;
+         }
+         .wrapper {
+             max-width: 60rem;
+             padding-bottom: 0.3rem;
+         }
+ 
+         .header-logo {
+             display: block;
+             max-width: 100%;
+         }
+         .container{
+             padding: 2rem 1.5rem;
+         }
+         .main {
+             padding: 3rem 2rem 1rem 2rem;
+             text-align: justify;
+             background-color: #FFFFFF;
+             border-radius: 0.5rem;
+         }
+ 
+         hr.solid{
+             margin: 1.5rem 0 0.8rem 0;
+         }
+         .grey{
+             color: #666666;
+         }
+         .footer-logo{
+             display: block;
+             max-width: 100%;
+         }
+         .pad-top-s{
+             padding-top: 1.5rem;
+         }
+         .social img{
+             width: 2rem;
+             margin-top: -0.5rem;
+             margin-right: 1rem;
+         }
+         .social a{
+             text-decoration: none;
+         }
+     </style>
+ </head>
+ 
+ <body>
+     <table class="wrapper">
+         <tr>
+             <td style="background-color: #330066;">
+                 <!-- Logo Header -->
+                 <table>
+                     <tr>
+                         <td>
+                             <a href="#"><img src="https://i.postimg.cc/0jX4MfVD/Header.png" class="header-logo"></a>
+                         </td>
+                     </tr>
+                 </table>
+ 
+                 <!-- Main Content -->
+                 <div class="container">
+                     <table class="main">
+                         <tr>
+                             <td>
+                                 <p>Greetings {{ NICKNAME }},</p>
+                                 <p>
+                                    We are thrilled to extend our warmest congratulations as you have been selected as a member of the <span class="yellow"><strong>Department of Machine Learning and Artificial Intelligence </strong></span> at <strong> AWS Cloud Club - PUP Manila!</strong>
+
+                                 </p>
+                                 <p>
+                                    Your passion and enthusiasm for <strong>Machine Learning and Artificial Intelligence </strong>have truly impressed our selection committee. We are excited to have you join our dynamic department and become a valuable part of our community.
+                                 </p>
+                                 <p>
+                                    In your role as a <strong>{{ POSITION }},</strong> you'll have the opportunity to learn and grow under the guidance of our esteemed <strong>Department Head: Mr. Mark Macaraeg</strong>, and <strong>Department Co-Head: Mr. Roljohn Frilles </strong> They bring a wealth of experience and knowledge to our team, and we are confident that you will benefit greatly from their mentorship.
+                                </p>
+                                <p>
+                                    Once again, congratulations on being selected for this position. We are excited to welcome you to the <span class="yellow"><strong>Department of Machine Learning and Artificial Intelligence </strong></span> at <strong>AWS Cloud Club - PUP Manila. </strong> We are confident that you will make a positive impact and grow with us as we explore the exciting world of AI and machine learning.
+                                </p>
+                                <p>
+                                    If you have any questions or need further information, please feel free to reach out to us. We can't wait to see your talent and passion in action! 
+                                </p>
+                             </td>
+                         </tr>
+                     <tr>
+                         <td>                            
+                             <p>In the service of the community,  
+                             </p>  
+                             <div class="signature">
+                                     <i>Relations Office <br></i>
+                                     <strong>AWS Cloud Club - PUP Manila</strong>
+                                 </strong> <br>
+                             </div>
+                         </td>
+                     </tr>
+                     <tr>
+                       <td>
+                           <div class="social pad-top-s">
+                               <p class="grey"><i>Follow us on our social media pages:</i></p>
+ 
+                               <a href="https://www.facebook.com/AWSCloudClubPUPManila"><img
+                                   src="https://i.postimg.cc/kXN2MVvk/FaceBook.png" alt="Facebook Logo" alt="Facebook Logo"></a>
+                       
+                               <a href="https://www.instagram.com/awscc_pupmnl/"><img
+                                   src="https://i.postimg.cc/FFLfqCdF/Instagram.png" alt="Instagram Logo" alt="Instagram Logo"></a>
+                                   
+                               <a href="https://www.linkedin.com/company/aws-cloud-club-%E2%80%93-pup-manila/"><img
+                                   src="https://i.postimg.cc/151gZ0wG/LinkedIn.png" alt="LinkedIn Logo" alt="LinkedIn Logo"></a>
+                           </div>
+                       </td>
+                   </tr>
+               </table>
+           </div>
+               
+               <!-- Footer -->
+               <table>
+                   <tr>
+                       <td class="footer">
+                           <a href="#"><img src="https://i.postimg.cc/sX1Pgmt2/Footer1.png" alt="" class="footer-logo"></a>
+                       </td>
+                   </tr>
+               </table>
+           </td>
+       </tr>
+   </table>
+ </body>
+ </html>
